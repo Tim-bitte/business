@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 18px;
+    --black: #000;
+    --white: #fff;
+}
+body{
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner__elems{
+    height: 100vh;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.inner__elems h2{
+    color: #fff;
+}
+.inner__elems p{
+    font-size: 15px;
+    color: rgba(132, 118, 170, 1);
+}
+.placement{
+    flex-direction: row;
+    gap: 9rem;
+}
+.first h1{
+    color: #fff;
+    justify-self: center;
+    margin-bottom: 0.5rem;
+}

@@ -1,0 +1,96 @@
+.nav__container{
+    padding-top: 3rem;
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+.nav__bra{
+    flex-direction: row;
+    gap: 11rem;
+}
+.nav__logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav__logo::after{
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 20px;
+    top: 67%;
+}
+.nav__logo::before{
+    content: "";
+    width: 15px;
+    height: 6px;
+    background-color: #fff;
+    position: absolute;
+    border-radius: 20px;
+    top: 83%;
+}
+.nav__info{
+    gap: 3rem;
+    color: #ffffff;
+}
+.nav__info span a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+.nav__info span a:hover{
+    color: orange;
+    transition: 0.3 s;
+}
+
+.nav__buttons{
+    gap: 3rem;
+}
+.nav__buttons span a{
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+.button__click__1{
+    min-width: 100px;
+    height: 40px;
+    background-color: inherit;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+.button__click__1:hover{
+    box-shadow: 
+        0 0 35px #1a1a19,
+        0 0 70px rgba(72, 73, 73, 0.9);
+      transform: translateY(-3px);
+}
+.button__click__1 span{
+    color: orange;
+    font-size: 17px;
+}
+.button__click__2{
+    min-width: 100px;
+    height: 40px;
+    background-color: orange;
+    border: hidden;
+    border-radius: 5px;
+}
+.button__click__2:hover{
+        box-shadow: 
+        0 0 35px #ff8c00,
+        0 0 70px rgba(255, 140, 0, 0.9);
+      transform: translateY(-2px);
+}
+.button__click__2 span{
+    font-size: 17px;
+    color: #fff;
+}

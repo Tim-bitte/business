@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 18px;
+    --black: #000;
+    --white: #fff;
+}
+body{
+    background: linear-gradient(222.26deg, #3a2853 1.22%, #040D3E 106.28%);
+
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orange{
+    color: orange;
+    font-family: "Rubik", sans-serif;
+}
+.blue{
+    color: rgba(132, 118, 170, 1);
+}
+.small{
+    font-size: 24px;
+    color: rgba(149, 161, 187, 1);
+    font-weight: 400;
+}
+.connect__main{
+    flex-direction: row;
+}
+.info__container{
+    padding-top: 3rem;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.info__container h1{
+    font-family: "Inter", sans-serif;
+    color: #fff;
+}
+.info__container p{
+    color: rgba(132, 118, 170, 1);
+}
+.info__buttons{
+    padding-right: 4rem;
+    gap: 1rem;
+}
+.button__click_1{
+    min-width: 150px;
+    height: 40px;
+    background-color: orange;
+    border: hidden;
+    color: #fff;
+    border-radius: 5px;
+}
+.button__click_1:hover{
+    box-shadow: 
+        0 0 35px #ff8c00,
+        0 0 70px rgba(255, 140, 0, 0.9);
+      transform: translateY(-2px);
+}
+.btn__send:hover{
+    box-shadow: 
+        0 0 35px #a60eed,
+        0 0 70px rgba(255, 140, 0, 0.9);
+      transform: translateY(-1px);
+}
+.button__click_1 span{
+    font-size: 17px;
+}
+.button__click_2{
+    min-width: 150px;
+    height: 40px;
+    background-color: inherit;
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 5px;
+}
+.button__click_2:hover{
+    box-shadow: 
+        0 0 35px #1a1a19,
+        0 0 70px rgba(72, 73, 73, 0.9);
+      transform: translateY(-3px);
+}
+.button__click_2 span{
+    font-size: 17px;
+}
+.video__info{
+    padding-left: 5rem;
+    gap: 1rem;
+}
+.video__info span{
+    color: rgba(109, 109, 120, 1);
+}
+.oblong{
+    min-width: 120px;
+    height: 60px;
+    background: rgba(54, 28, 93, 1);
+    border-radius: 5px;
+}
+.oblong::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+}
+.oblong::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 13px solid rgba(54, 28, 93, 1);
+    position: absolute;
+}
+.img__placementtt{
+    padding-left: 6rem;
+}
+.img__placementtt img{
+    min-width: 550px;
+    max-height: 900px;
+}
+.connect__souls{
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.connect__souls span{
+    margin-right: auto;
+    font-size: 16px;
+}
+
+.foot__things{
+    padding-top: 3rem;
+    gap: 4rem;
+    color: rgba(109, 109, 120, 1);
+    font-family: "Oswald", sans-serif;
+}
+.connect__spann{
+    gap: 0.5rem;
+}
+.connect__spann:nth-child(1){
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.connect__spann:nth-child(2){
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.connect__spann:nth-child(3){
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.connect__spann:nth-child(4){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.connect__spann:nth-child(5){
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.connect__spann:nth-child(6){
+    font-family: 'Courier New', Courier, monospace;
+}
+.info__buttons span a{
+    text-decoration: none;
+    color: #fff;
+}
+.grid__object{
+    padding: 3rem;
+    font-size: 21px;
+    color: #fff;
+}
+.upper__part{
+    justify-content: space-between;
+}
+.circle__placement{
+    gap: 2rem;
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    background-color: #512488;
+    border-radius: 50%;
+}
+.column__placement{
+    padding-top: 1.5rem;
+    justify-content: space-between;
+}
+.column{
+    flex-direction: column;
+    gap: 0.7rem;
+    font-family: "Inter", sans-serif;
+}
+.column h3{
+    margin-right: auto;
+    font-weight: 700;
+    font-size: 20px;
+}
+.column span{
+    margin-right: auto;
+    font-weight: 100;
+}
+.foot__inf{
+    padding-top: 7rem;
+    gap: 3rem;
+    color:rgba(141, 141, 141, 1);
+}

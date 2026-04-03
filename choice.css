@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 18px;
+    --black: #000;
+    --white: #fff;
+}
+body{
+    background: linear-gradient(222.26deg, #3B1D60 1.22%, #040D3E 106.28%);
+
+}
+.centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info__container{
+    height: 100vh;
+    flex-direction: column;
+    gap: 2rem;
+}
+.info__container h1{
+    color: #fff;
+    justify-self: center;
+}
+.info__container h3{
+    color: rgba(132, 118, 170, 1);
+}
+.info__placement{
+    flex-direction: column;
+    gap: 0.3rem;
+}
+.frames__placement{
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.frame{
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.frame p{
+    color: rgba(132, 118, 170, 1);
+}
+.connect{
+    gap: 1rem;
+    padding-right: 5rem;
+}
+.connect span{
+    color: #fff;
+}
+.connect h4{
+    color: #fff;
+}
