@@ -1,4 +1,4 @@
-// Simple JS to enhance cosmic feel (subtle random twinkling on lines)
+
         function twinkleLines() {
             const lines = document.querySelectorAll('.line');
             lines.forEach((line, index) => {
@@ -13,6 +13,5 @@
             });
         }
         
-        // Run twinkling every 6 seconds
         setInterval(twinkleLines, 6000);
         twinkleLines(); // initial call
