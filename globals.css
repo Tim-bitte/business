@@ -27,7 +27,7 @@ body{
     color: rgba(132, 118, 170, 1);
 }
 .small{
-    font-size: 24px;
+    font-size: 1.1rem;
     color: rgba(149, 161, 187, 1);
     font-weight: 400;
 }
@@ -35,7 +35,7 @@ body{
     flex-direction: row;
 }
 .info__container{
-    padding-top: 3rem;
+    font-size: 0.8rem;
     flex-direction: column;
     gap: 1.5rem;
 }
@@ -47,7 +47,6 @@ body{
     color: rgba(132, 118, 170, 1);
 }
 .info__buttons{
-    padding-right: 4rem;
     gap: 1rem;
 }
 .button__click_1{
@@ -71,7 +70,7 @@ body{
       transform: translateY(-1px);
 }
 .button__click_1 span{
-    font-size: 17px;
+    font-size: 0.8rem;
 }
 .button__click_2{
     min-width: 150px;
@@ -88,7 +87,7 @@ body{
       transform: translateY(-3px);
 }
 .button__click_2 span{
-    font-size: 17px;
+    font-size: 0.8rem;
 }
 .video__info{
     padding-left: 5rem;
@@ -169,7 +168,7 @@ body{
 }
 .grid__object{
     padding: 3rem;
-    font-size: 21px;
+    font-size: 0.8rem;
     color: #fff;
 }
 .upper__part{
@@ -185,8 +184,8 @@ body{
     border-radius: 50%;
 }
 .column__placement{
-    padding-top: 1.5rem;
-    justify-content: space-between;
+    height: 200px;
+    justify-content: space-around;
 }
 .column{
     flex-direction: column;
@@ -196,11 +195,15 @@ body{
 .column h3{
     margin-right: auto;
     font-weight: 700;
-    font-size: 20px;
+    font-size: 0.9rem;
 }
 .column span{
     margin-right: auto;
     font-weight: 100;
+}
+.column span a{
+    text-decoration: none;
+    color: white;
 }
 .foot__inf{
     padding-top: 7rem;
