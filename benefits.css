@@ -29,16 +29,16 @@ body{
     gap: 2rem;
 }
 .inner__elems h1{
-    padding-right: 8rem;
+    margin-right: auto;
     color: #fff;
 }.inner__elems p{
     color: rgba(132, 118, 170, 1);
 }.info__buttons{
-    margin-right: 12rem;
+    margin-right: auto;
 }
 .frame_{
-    min-width: 300px;
-    max-height: 900px;
+    width: 300px;
+    height: 450px;
     background-color: #fff;
     border-radius: 10px;
     z-index: 1;
@@ -65,8 +65,8 @@ body{
     color: rgba(99, 115, 129, 1);
 }
 .img__placement img{
-    width: 300px;
-    max-height: 700px;
+    width: 100%;
+    height: 190px;
     border-radius: 10px 10px 0px 0px;
 
 }
