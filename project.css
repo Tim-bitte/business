@@ -20,16 +20,18 @@ body{
     align-items: center;
 }
 .inner__elems{
-    padding-top: 6rem;
+    padding-top: 3rem;
     flex-direction: column;
     gap: 0.3rem;
+    font-size: 0.8rem;
 }
 .inner__elems h2{
-    font-size: 30px;
     color: #fff;
 }
+.inner__elems span{
+    font-size: 1.1rem;
+}
 .info__buttons{
-    padding-left: 4rem;
     padding-top: 2rem;
 }
 .button__click_1{
